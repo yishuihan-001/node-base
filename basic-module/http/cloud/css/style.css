@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px auto;
+}
+html{
+	height:100%;
+}
+body{
+	background:url(../images/bg.jpg) no-repeat center top;
+	background-size:100% 100%;
+}
+
+.qiqiu img{
+	width:100px;
+	height:auto;
+	/*display:block;*/
+}
+.qiqiu div{
+	width:80px;
+	height:80px;
+	background:url(../images/0.png) no-repeat center top;
+	//background-image:url(../images/0.png);
+	//background-size:80px;
+	text-align:center;
+	line-height:80px;
+	margin:-5px auto;
+}
+.qiqiu1{
+	width:100px;
+	height:200px;
+	position:fixed;
+	top:1000px;
+	left:200px;
+	animation:donghua 17s linear infinite;
+}
+@keyframes donghua {
+	from {
+		left:300px;
+	}
+	to{
+		top:-100px;
+	}
+}
+
+.qiqiu2{
+	width:100px;
+	height:200px;
+	position:fixed;
+	top:1000px;
+	left:900px;
+	animation:donghua 18s linear infinite;
+}
+
+.qiqiu3{
+	width:100px;
+	height:200px;
+	position:fixed;
+	top:1000px;
+	left:750px;
+	animation:donghua 15s linear infinite;
+}
+
+.qiqiu4{
+	width:100px;
+	height:200px;
+	position:fixed;
+	top:1000px;
+	left:600px;
+	animation:donghua 15s linear infinite;
+}
+
+.qiqiu5{
+	width:100px;
+	height:200px;
+	position:fixed;
+	top:1000px;
+	left:350px;
+	animation:donghua 16s linear infinite;
+}
+
+.qiqiu6{
+	width:100px;
+	height:200px;
+	position:fixed;
+	top:800px;
+	left:100px;
+	animation:donghua 12s linear infinite;
+}
+
+.qiqiu7{
+	width:100px;
+	height:200px;
+	position:fixed;
+	top:880px;
+	left:666px;
+	animation:donghua 15s linear infinite;
+}
+
+.qiqiu8{
+	width:100px;
+	height:200px;
+	position:fixed;
+	top:650px;
+	left:800px;
+	animation:donghua 18s linear infinite;
+}
+
+
+@keyframes yun {
+	from {
+		right:0px;
+	}
+	to{
+		left:-500px;
+	}
+}
+@keyframes yun1 {
+	from {
+		left:-600px;
+	}
+	to{
+		right:-100px;
+	}
+}
+.yun1 img{
+	width:500px;
+	height:auto;
+	position:fixed;
+	top:150px;
+	left:1400px;
+	animation:yun 20s linear infinite;
+}
+.yun2 img{
+	width:400px;
+	height:auto;
+	position:fixed;
+	top:230px;
+	left:1500px;
+	animation:yun1 15s linear infinite;
+}
+.yun3 img{
+	width:430px;
+	height:auto;
+	position:fixed;
+	top:300px;
+	left:1400px;
+	animation:yun 16s linear infinite;
+}
+.yun4 img{
+	width:500px;
+	height:auto;
+	position:fixed;
+	top:410px;
+	left:1500px;
+	animation:yun1 18s linear infinite;
+}
+
+
+
